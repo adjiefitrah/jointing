@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.com.jointing.LoginActivity">
+
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/colorWhite">
+
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:layout_weight="1"
+             android:background="@color/colorWhite"
+             android:orientation="vertical"
+             android:weightSum="1">
+
+             <ImageView
+                 android:id="@+id/imageView"
+                 android:layout_width="210dp"
+                 android:layout_height="100dp"
+                 android:layout_marginTop="60dp"
+                 android:layout_gravity="center"
+                 android:layout_weight="0.31"
+                 android:cropToPadding="false"
+                 android:scaleType="fitCenter"
+                 app:srcCompat="@drawable/icon_wo" />
+
+             <TextView
+                 android:id="@+id/textView"
+                 android:layout_width="wrap_content"
+                 android:layout_height="30dp"
+                 android:layout_marginTop="10dp"
+                 android:layout_gravity="center"
+                 android:text="@string/app_name"
+                 android:textColor="@android:color/black"
+                 android:textSize="25dp" />
+
+             <TextView
+                 android:id="@+id/textView2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="20dp"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="10dp"
+                 android:text="@string/keterangan_aplikasi"
+                 android:textColor="@android:color/black"
+                 android:textSize="15dp" />
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:orientation="vertical"
+             android:background="@color/colorAccent"
+             android:layout_weight="1"
+             android:weightSum="1">
+
+             <EditText
+                 android:id="@+id/txt_username"
+                 android:layout_width="260dp"
+                 android:layout_height="57dp"
+
+                 android:layout_gravity="center"
+                 android:ems="10"
+                 android:hint="Username"
+                 android:inputType="textPersonName" />
+
+             <EditText
+                 android:id="@+id/txt_password"
+                 android:layout_width="260dp"
+                 android:layout_height="57dp"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="5dp"
+                 android:ems="10"
+                 android:hint="Password"
+                 android:inputType="textPassword" />
+
+             <Button
+                 android:id="@+id/btn_login"
+                 android:layout_width="190dp"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="5dp"
+                 android:text="Login" />
+         </LinearLayout>
+
+     </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

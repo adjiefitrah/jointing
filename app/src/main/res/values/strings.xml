@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">JOINMO</string>
+    <string name="keterangan_aplikasi">JOINting MObile</string>
+    <string name="ip_server">10.3.0.215</string>
+    <string-array name="spin_sktm">
+        <item>3 x 150</item>
+        <item>3 x 240</item>
+        <item>3 x 300</item>
+    </string-array>
+    <string-array name="spin_merk">
+        <item>Merk X</item>
+        <item>Merk Y</item>
+    </string-array>
+    <string-array name="spin_tipe">
+        <item>Tape Resin</item>
+        <item>Cold Srink</item>
+    </string-array>
+    <string-array name="spin_konektor">
+        <item>150 - 150</item>
+        <item>150 - 240</item>
+        <item>150 - 400</item>
+    </string-array>
+    <string-array name="spin_jenis_kabel">
+        <item>Kabel</item>
+        <item>Jointing</item>
+    </string-array>
+
+    <dimen name="top_input_wo">5dp</dimen>
+</resources>

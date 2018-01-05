@@ -1,0 +1,45 @@
+{
+  "project_info": {
+    "project_number": "499240247698",
+    "firebase_url": "https://project-pln-1184.firebaseio.com",
+    "project_id": "project-pln-1184"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499240247698:android:6ff27871da1889e3",
+        "android_client_info": {
+          "package_name": "example.com.jointing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499240247698-srigvdeeebdvavb1vibitl864aoinjt5.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "499240247698-2u4ju31ruvr19nobg3n484gtn3rj2f6r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkQ7ZDlQZTKCQT5MHp1hwadAQfRvZUxjM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
